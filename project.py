@@ -4,6 +4,9 @@
 # In[1]:
 
 
+get_ipython().system('pip install streamlit pandas numpy scikit-learn')
+import sklearn
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -16,12 +19,7 @@ import time  # Import time module
 # Install required libraries
 get_ipython().system('pip install streamlit pandas numpy scikit-learn')
 
-# Import the installed libraries
-import streamlit as st
-import pandas as pd
-import numpy as np
-from sklearn.datasets import load_iris
-from sklearn.linear_model import LogisticRegression
+
 
 california_housing = fetch_california_housing(as_frame=True)
 df = california_housing.frame
