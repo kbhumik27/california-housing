@@ -3,7 +3,6 @@
 
 # In[1]:
 
-pip install scikit-learn==<version> numpy==<version> streamlit==<version>
 
 
 import sklearn
