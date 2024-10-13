@@ -16,8 +16,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import KNeighborsRegressor
 import time  # Import time module
 
-# Install required libraries
-get_ipython().system('pip install streamlit pandas numpy scikit-learn')
+
 
 
 
