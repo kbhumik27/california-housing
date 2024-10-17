@@ -25,7 +25,10 @@ df = california_housing.frame
 
 # Create a Streamlit UI
 st.title('California Housing Predictor')
+from PIL import Image
 
+image = Image.open("/Users/kapoor/Downloads/pexels-binyaminmellish-106399.jpg")
+st.image(image, caption="house", use_column_width=True)
 # User input
 user_input_neighbors = st.sidebar.slider('Enter the number of neighbors', 1, 10, 3)
 user_input_population = st.sidebar.slider('Enter the Population', 0, int(df["Population"].max()), 1000)
